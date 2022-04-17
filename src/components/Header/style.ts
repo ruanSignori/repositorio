@@ -5,7 +5,7 @@ type Props = {
 };
 
 export const Container = styled.header<Props>`
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: fixed;
   inset: 0;
@@ -14,7 +14,7 @@ export const Container = styled.header<Props>`
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
-  transition: all ease 0.3s;
+  transition: all ease 0.2s;
   background-color: ${(props) =>
     (props.transparent && "transparent") || props.theme.colors.primary};
 

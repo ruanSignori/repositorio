@@ -7,12 +7,23 @@ type TextColors = {
 
 export const Apresentation = styled.section`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-top: 5rem;
+  padding: 5rem 2rem;
+  gap: 4rem;
+
+  img {
+    width: 35rem;
+    z-index: 1;
+  }
+
+  @media (max-width: 1200px) {
+    padding-top: 12rem;
+    gap: 10rem;
+  } ;
 `;
 
 export const Emphasis = styled.div`

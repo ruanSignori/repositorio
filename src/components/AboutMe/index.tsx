@@ -11,37 +11,39 @@ export function AboutMe(): JSX.Element {
         <div>
           <div>
             <p>
-              Prazer, eu me chamo Ruan Signori, atualmente tenho 17 anos, estou
-              no 3º ano do Ensino Médio, trabalho em uma Provedora de Internet.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, vero
+              veniam. Laboriosam optio accusamus nesciunt neque exercitationem
+              quibusdam adipisci ex.
             </p>
             <p>
-              Nas horas vagas gosto muito de estudar programação, e almejo
-              trabalhar nessa área algum dia.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              nobis earum! Omnis cumque dolorem eos molestias nulla. Deleniti,
+              enim explicabo.
             </p>
             <p>
-              Eu iniciei meus estudos com programação em Maio de 2021, através
-              de cursos gratuitos disponiblizados no canal do “Curso em vídeo”.
-              Até hoje, admiro imensamente o trabalho que eles fazem pra quem
-              está iniciando nessa área, como foi o meu caso.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              temporibus molestiae pariatur incidunt nam molestias debitis modi
+              aliquam nesciunt, atque unde necessitatibus consequatur, dolore
+              neque quas perspiciatis libero veniam officiis facilis! Ad impedit
+              maiores veritatis et nobis dolores, maxime atque dolorum,
             </p>
           </div>
 
           <div>
             <p>
-              Mas meus estudos só subiram de nível de fato em Julho de 2021.
-              Pois foi aonde comprei o meu curso: “Curso de JavaScript e
-              TypeScript FullStack”, no qual o meu professor era o Luiz Otávio
-              Miranda.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              doloremque consequatur, temporibus perspiciatis mollitia eaque
+              ducimus accusamus ipsa reiciendis quibusdam facilis sunt
+              distinctio, voluptatem animi repe
             </p>
             <p>
-              A partir daí, fui me aprofundando cada vez mais em programação e
-              Informática como um todo. E até agora, sinto muito orgulho do que
-              eu já construi ou aprendi, e costumo seguir a metodologia “Never
-              stop learning”.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+              officiis quasi culpa unde excepturi assumen lo
             </p>
             <p>
-              Pretendo terminar a escola esse ano, e conseguir focar na minha
-              carreira como programador.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
+              nesciunt consequatur debitis commodi quaerat, asperiores at ullam
+              id rerum mollitia?
             </p>
           </div>
         </div>

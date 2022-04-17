@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const SkillsContent = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   margin-bottom: 5rem;
   padding: 5rem 8rem;
 
   section {
+    max-width: 80rem;
+    margin: auto;
     margin-top: 5rem;
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
     gap: 2rem;
   }
 `;

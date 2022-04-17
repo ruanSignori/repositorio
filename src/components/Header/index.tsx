@@ -19,8 +19,8 @@ export function Header({
     <Container transparent={isTransparent}>
       <a href="/">Home</a>
       <div>
-        <a href="/">Projetos</a>
         <a href="#about">Sobre</a>
+        <a href="/">Projetos</a>
         <a href="/">Contato</a>
         <Switch
           onChange={toggleTheme}

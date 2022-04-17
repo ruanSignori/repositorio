@@ -24,9 +24,9 @@ export function Overview(): JSX.Element {
           .
         </MainTtile>
         <Description>
-          Sou imensamente apaixonado por tecnologia. Atualmente estudo
-          principalmente Desenvolvimento web, mas pretendo me aprofundar cada
-          vez mais na área da programação.
+          Sou imensamente apaixonado por tecnologia. Estudo principalmente
+          Desenvolvimento web, mas pretendo me aprofundar cada vez mais na área
+          da programação.
         </Description>
         <button type="button">Saiba Mais</button>
       </Emphasis>

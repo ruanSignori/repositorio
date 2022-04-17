@@ -11,7 +11,7 @@ export function Wave({ firstWave, secundWave }: WaveProps): JSX.Element {
     <WaveComponent>
       {firstWave && (
         <svg
-          style={{ marginBottom: "-15px" }}
+          style={{ marginBottom: "-3vh" }}
           width="1920"
           height="150"
           viewBox="0 0 1920 150"

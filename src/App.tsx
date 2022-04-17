@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { ThemeProvider, DefaultTheme } from "styled-components";
 
 import { AboutMe } from "./components/AboutMe";
-import { Elipse } from "./components/Elipse";
+import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
 import { Overview } from "./components/Overview";
 import { Skills } from "./components/Skills";
@@ -32,7 +32,7 @@ export default function App(): JSX.Element {
     return () => {
       window.removeEventListener("scroll", scrollListener);
     };
-  }, []);
+  }, [window.scrollY]);
 
   //
   // <ElipseOne gradient="#085fce91, #00fff075" position="0%, 130%" />
@@ -46,11 +46,10 @@ export default function App(): JSX.Element {
         <GlobalStyle />
         <Header isTransparent={transparentHeader} toggleTheme={toggleTheme} />
         <main>
-          <Elipse>
-            <Overview />
-            <Skills />
-            <AboutMe />
-          </Elipse>
+          <Overview />
+          <Skills />
+          <AboutMe />
+          <Contact />
         </main>
       </div>
     </ThemeProvider>

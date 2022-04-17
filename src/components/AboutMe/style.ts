@@ -19,6 +19,7 @@ export const About = styled.div`
     div {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
       gap: 2.5rem;
 
       div {
@@ -28,9 +29,10 @@ export const About = styled.div`
         gap: 2.5rem;
 
         p {
-          width: 38rem;
+          max-width: 38rem;
           font-size: 1.2em;
           line-height: 42px;
+          text-align: justify;
         }
       }
     }
