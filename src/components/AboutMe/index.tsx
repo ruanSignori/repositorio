@@ -1,4 +1,4 @@
-import { SecundaryTitle } from "../SecundaryTitle/style";
+import { Title } from "../Title";
 import { Wave } from "../Wave";
 import { About } from "./style";
 
@@ -7,7 +7,7 @@ export function AboutMe(): JSX.Element {
     <About id="about">
       <Wave firstWave />
       <article>
-        <SecundaryTitle primaryColor>Sobre mim</SecundaryTitle>
+        <Title primaryColor>Sobre mim</Title>
         <div>
           <div>
             <p>

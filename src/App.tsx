@@ -5,6 +5,7 @@ import { AboutMe } from "./components/AboutMe";
 import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
 import { Overview } from "./components/Overview";
+import { Projects } from "./components/Projects";
 import { Skills } from "./components/Skills";
 import usePersistedTheme from "./hooks/usePersistedTheme";
 import GlobalStyle from "./styles/global";
@@ -42,16 +43,15 @@ export default function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <GlobalStyle />
-        <Header isTransparent={transparentHeader} toggleTheme={toggleTheme} />
-        <main>
-          <Overview />
-          <Skills />
-          <AboutMe />
-          <Contact />
-        </main>
-      </div>
+      <GlobalStyle />
+      <Header isTransparent={transparentHeader} toggleTheme={toggleTheme} />
+      <main>
+        <Overview />
+        <Skills />
+        <AboutMe />
+        <Projects />
+        <Contact />
+      </main>
     </ThemeProvider>
   );
 }

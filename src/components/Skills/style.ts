@@ -5,6 +5,10 @@ export const SkillsContent = styled.div`
   margin-bottom: 5rem;
   padding: 5rem 8rem;
 
+  @media (max-width: 800px) {
+    padding: 2rem;
+  }
+
   section {
     max-width: 80rem;
     margin: auto;
@@ -13,6 +17,21 @@ export const SkillsContent = styled.div`
     place-items: center;
     grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
     gap: 2rem;
+
+    @media (max-width: 800px) {
+      max-width: 100% !important;
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      div {
+        flex: none;
+      }
+    }
   }
 `;
 
@@ -31,5 +50,4 @@ export const CardSkill = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  transition: all ease 0.4s;
 `;

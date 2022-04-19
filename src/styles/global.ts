@@ -14,6 +14,7 @@ export default createGlobalStyle`
     transition: all ease 0.3s;
     overflow-x: hidden;
     background-color: ${(props) => props.theme.colors.primary};
+    scroll-behavior: smooth;
   }
 
   main {
@@ -22,7 +23,7 @@ export default createGlobalStyle`
     background-size: cover;
     background-position: center;
 
-    @media (max-width: 1260px) {
+    @media (max-width: 1150px) {
       background-image: ${(props) =>
         `radial-gradient(circle at 95% 20%, #085fce40, ${props.theme.colors.primary} 58%)`};
         background-repeat: repeat-y;
@@ -37,7 +38,5 @@ export default createGlobalStyle`
   ::-webkit-scrollbar-thumb {
     border-radius: 8px;
     background: ${(props) => props.theme.colors.text};
-    
   }
 `;
-//      ;

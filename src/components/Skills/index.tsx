@@ -1,4 +1,4 @@
-import { Title } from "../SecundaryTitle";
+import { Title } from "../Title";
 import listSkill from "./listSkill";
 import { CardSkill, SkillsContent } from "./style";
 
@@ -7,15 +7,15 @@ export function Skills(): JSX.Element {
     <SkillsContent>
       <Title secundaryColor>Habilidades</Title>
       <section>
-        {listSkill.map((skill) => (
-          <CardSkill key={skill.nameSkill}>
+        {listSkill.map(({ nameSkill, picture, description }) => (
+          <CardSkill key={nameSkill}>
             <img
-              src={skill.picture}
-              alt={`Icone ${skill.nameSkill}`}
+              src={picture}
+              alt={`Icone ${nameSkill}`}
               width={100}
               loading="lazy"
             />
-            <p>{skill.description}</p>
+            <p>{description}</p>
           </CardSkill>
         ))}
       </section>

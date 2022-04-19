@@ -16,13 +16,18 @@ export const Apresentation = styled.section`
   gap: 4rem;
 
   img {
-    width: 35rem;
-    z-index: 1;
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
   }
 
   @media (max-width: 1200px) {
     padding-top: 12rem;
     gap: 10rem;
+
+    img {
+      width: 70%;
+    }
   } ;
 `;
 
